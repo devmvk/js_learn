@@ -1,7 +1,4 @@
-const fibonacci = (x) => {
-    if(n == 1 || n== 2) return 1;
-    return fibonacci(n - 1) + fibonacci(n - 2);
+function fibonacci(value){
+    if(value == 1 || value== 2) return 1;
+    return fibonacci(value - 1) + fibonacci(value - 2);
 }
-
-export {fibonacci};
-
